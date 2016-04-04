@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<client name="LBC">
+    <queries>
+		<query id ="getAllPremiums">
+			select * from premiums
+		</query>
+		<query id ="getPremiumsById">
+			select * from premiums where id = ?
+		</query>
+	</queries>
+</client>
